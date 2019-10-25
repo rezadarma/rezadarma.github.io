@@ -74,8 +74,8 @@
                         <div class="content">    
                             <hr class="divider" />
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
+                                <a class="col-md-4 col-12">
+                                <img data-toggle="modal" data-target="#exampleModal" class="img-fluid project-image" id="gbr1" onclick="cobian('gbr1')" src="assets/images/projects/project-1.png" alt="project name"/>
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="#" target="_blank">E-Form Dinas Peternakan Provinsi Banten</a></h3>
@@ -84,8 +84,8 @@
                             </div><!--//item-->
                             
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                                <a class="col-md-4 col-12">
+                                <img data-toggle="modal" data-target="#exampleModal" class="img-fluid project-image" id="gbr2" onclick="cobian('gbr2')" src="assets/images/projects/project-2.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="#" target="_blank">Sistem Informasi Pelayanan Terpadu</a></h3>
@@ -94,8 +94,8 @@
                             </div><!--//item-->
                             
                              <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-3.png" alt="project name" />
+                                <a class="col-md-4 col-12">
+                                <img data-toggle="modal" data-target="#exampleModal" class="img-fluid project-image" id="gbr3" onclick="cobian('gbr3')" src="assets/images/projects/project-3.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="" target="_blank">Website Company Profile Lembaga Kursus NSP</a></h3>
@@ -105,8 +105,8 @@
                             </div><!--//item-->
                             
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-4.png" alt="project name" />
+                                <a class="col-md-4 col-12">
+                                <img data-toggle="modal" data-target="#exampleModal" class="img-fluid project-image" id="gbr4" onclick="cobian('gbr4')" src="assets/images/projects/project-4.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="#" target="_blank">Parking Revenue App</a></h3>
@@ -114,8 +114,8 @@
                                 </div><!--//desc-->                          
                             </div><!--//item-->                            
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-5.png" alt="project name" />
+                                <a class="col-md-4 col-12">
+                                <img data-toggle="modal" data-target="#exampleModal" class="img-fluid project-image" id="gbr5" onclick="cobian('gbr5')" src="assets/images/projects/project-5.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="#" target="_blank">Booking Parking App</a></h3>
@@ -124,8 +124,8 @@
                             </div><!--//item-->
 
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-6.png" alt="project name" />
+                                <a class="col-md-4 col-12">
+                                <img data-toggle="modal" data-target="#exampleModal" class="img-fluid project-image" id="gbr6" onclick="cobian('gbr6')" src="assets/images/projects/project-6.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="#" target="_blank">JUP Parking Onstreet</a></h3>
@@ -134,8 +134,8 @@
                             </div><!--//item-->
 
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="#" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-7.png" alt="project name" />
+                                <a class="col-md-4 col-12">
+                                <img data-toggle="modal" data-target="#exampleModal" class="img-fluid project-image" id="gbr7" onclick="cobian('gbr7')" src="assets/images/projects/project-7.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="#" target="_blank">Face Recognition</a></h3>
@@ -298,7 +298,24 @@
                 <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Reza Darmawan</a> for developers</small>
         </div><!--//container-->
     </footer><!--//footer-->
- 
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img width="100%" class="img-fluid project-image" id="img_besar" src="" alt="project name"/>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
@@ -310,7 +327,21 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
     <script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js"></script>
     <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/main.js"></script>   
+    <script>
+        $(document).on("click", ".perbesar_gambar", function () {
+            var src=$(".perbesar_gambar").attr("src");
+            $('#img_besar').attr('src', src);
+            // As pointed out in comments, 
+            // it is unnecessary to have to manually call the modal.
+            // $('#addBookDialog').modal('show');
+        });
+
+        function cobian(cobi){
+            var src = $("#"+cobi).attr("src");
+            $('#img_besar').attr('src', src);
+        }
+    </script>         
 </body>
 </html> 
 
