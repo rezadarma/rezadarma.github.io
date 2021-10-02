@@ -155,13 +155,13 @@ a.dotted-link:hover {
 .containerskills {
   border-radius: 10px;
   width: 100%;
-  background-color:#01aa65;
+  background-color:#f1f3f2;
   box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255);
 }
 
-.microservices {width: 90%;  border-top-left-radius:30px;border-bottom-left-radius:30px;background-color: #d75a4a;}
-.nodejs {width: 95%;  border-top-left-radius:30px;border-bottom-left-radius:30px;background-color: #d75a4a;}
-.spark {width: 70%;  border-top-left-radius:30px;border-bottom-left-radius:30px;background-color: #d75a4a;}
+.microservices {width: 90%;  border-top-left-radius:30px;border-bottom-left-radius:30px;background-color: #01b369;}
+.nodejs {width: 95%;  border-top-left-radius:30px;border-bottom-left-radius:30px;background-color: #01b369;}
+.spark {width: 70%;  border-top-left-radius:30px;border-bottom-left-radius:30px;background-color: #01b369;}
 
 .header .profile-content .social a {
   width: 56px;
