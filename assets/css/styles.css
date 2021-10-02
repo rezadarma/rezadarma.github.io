@@ -153,9 +153,9 @@ a.dotted-link:hover {
   color: white;
 }
 .containerskills {
-  border-radius: 30px;
+  border-radius: 10px;
   width: 100%;
-  background-color:#f1f3f6;
+  background-color:#01aa65;
   box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255);
 }
 
