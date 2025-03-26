@@ -9,7 +9,7 @@
 
 .nk-header.is-dark:not([class*=bg-]) { background: #0f192a; }
 
-.nk-header.is-theme:not([class*=bg-]) { background: #0a2d6c; }
+.nk-header.is-theme:not([class*=bg-]) { background: #045670; }
 
 .is-dark .nk-menu-link { color: #8699b2; }
 
@@ -151,7 +151,7 @@ a.bg-primary:hover, a.bg-primary:focus, button.bg-primary:hover, button.bg-prima
 
 .nk-menu-badge, .nk-menu-main .nk-menu-sub .nk-menu-badge { color: #539cfe; background-color: #e6f1ff; }
 
-.is-theme .nk-sidebar-footer, .nk-apps-sidebar.is-theme, .is-theme .nk-sidebar-profile-fixed { background: #0a2d6c; border-color: #0f419a; }
+.is-theme .nk-sidebar-footer, .nk-apps-sidebar.is-theme, .is-theme .nk-sidebar-profile-fixed { background: #045670; border-color: #0f419a; }
 
 .is-theme .nk-menu-footer .nk-menu-link, .is-theme .sub-text, .is-theme .lead-text span { color: #a9cdff; }
 
